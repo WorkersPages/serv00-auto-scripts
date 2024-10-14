@@ -65,3 +65,7 @@ FinalShell是一体化的的服务器,网络管理软件,不仅是ssh客户端,�
   启动：memcached -s /usr/home/LOGIN/domains/DOMAIN/memcached.sock -d
 
 - Redis配置: <https://docs.serv00.com/Memcached/>
+
+## 特别注意
+
+serv00虽然有10年使用期，但无法清除Apache和其它服务产生的日志，在容量限制情况下，不建议大日志产生的高流量服务和高频次作业任务。
